@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-15",
+  "status": "Prepared; live verification pending",
+  "variables": {
+    "creatinine": {
+      "target_unit": "mg/dL",
+      "accepted_normalized_units": [
+        "mg/dl"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "bun": {
+      "target_unit": "mg/dL",
+      "accepted_normalized_units": [
+        "mg/dl"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "sodium": {
+      "target_unit": "mmol/L",
+      "accepted_normalized_units": [
+        "meq/l",
+        "mmol/l",
+        "mmole/l"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "potassium": {
+      "target_unit": "mmol/L",
+      "accepted_normalized_units": [
+        "meq/l",
+        "mmol/l",
+        "mmole/l"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "chloride": {
+      "target_unit": "mmol/L",
+      "accepted_normalized_units": [
+        "meq/l",
+        "mmol/l",
+        "mmole/l"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "bicarbonate": {
+      "target_unit": "mmol/L",
+      "accepted_normalized_units": [
+        "meq/l",
+        "mmol/l",
+        "mmole/l"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "glucose": {
+      "target_unit": "mg/dL",
+      "accepted_normalized_units": [
+        "mg/dl"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "hemoglobin": {
+      "target_unit": "g/dL",
+      "accepted_normalized_units": [
+        "g/dl",
+        "gm/dl"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "hematocrit": {
+      "target_unit": "%",
+      "accepted_normalized_units": [
+        "%",
+        "%pcv"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "wbc": {
+      "target_unit": "10^3/uL",
+      "accepted_normalized_units": [
+        "*10^3/ul",
+        "/nl",
+        "10(3)/mcl",
+        "10(3)mcl",
+        "10*3/ul",
+        "10*9/l",
+        "1000/cmm",
+        "103/ul",
+        "10^3/ul",
+        "10^9/l",
+        "10e3/mcl",
+        "10e3/ul",
+        "10x3/ul",
+        "bil/l",
+        "k/cmm",
+        "k/cumm",
+        "k/mcl",
+        "k/mm3",
+        "k/mmcu",
+        "k/ul",
+        "th/cmm",
+        "th/cumm",
+        "th/mm3",
+        "th/ul",
+        "thd/ul",
+        "thou/cmm",
+        "thou/cumm",
+        "thou/mm3",
+        "thou/ul",
+        "thous/ul",
+        "ths/ul",
+        "x(10)3/ul",
+        "x10(3)/mcl",
+        "x103/ul",
+        "x10^3/ul",
+        "x10^9/l",
+        "x10e3/ul"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "platelets": {
+      "target_unit": "10^3/uL",
+      "accepted_normalized_units": [
+        "*10^3/ul",
+        "/nl",
+        "10(3)/mcl",
+        "10(3)mcl",
+        "10*3/ul",
+        "10*9/l",
+        "1000/cmm",
+        "103/ul",
+        "10^3/ul",
+        "10^9/l",
+        "10e3/mcl",
+        "10e3/ul",
+        "10x3/ul",
+        "bil/l",
+        "k/cmm",
+        "k/cumm",
+        "k/mcl",
+        "k/mm3",
+        "k/mmcu",
+        "k/ul",
+        "th/cmm",
+        "th/cumm",
+        "th/mm3",
+        "th/ul",
+        "thd/ul",
+        "thou/cmm",
+        "thou/cumm",
+        "thou/mm3",
+        "thou/ul",
+        "thous/ul",
+        "ths/ul",
+        "x(10)3/ul",
+        "x10(3)/mcl",
+        "x103/ul",
+        "x10^3/ul",
+        "x10^9/l",
+        "x10e3/ul"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "calcium_total": {
+      "target_unit": "mg/dL",
+      "accepted_normalized_units": [
+        "mg/dl"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "magnesium": {
+      "target_unit": "mg/dL",
+      "accepted_normalized_units": [
+        "mg/dl"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "phosphate": {
+      "target_unit": "mg/dL",
+      "accepted_normalized_units": [
+        "mg/dl"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "albumin": {
+      "target_unit": "g/dL",
+      "accepted_normalized_units": [
+        "g/dl",
+        "gm/dl"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "bilirubin_total": {
+      "target_unit": "mg/dL",
+      "accepted_normalized_units": [
+        "mg/dl"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    },
+    "lactate": {
+      "target_unit": "mmol/L",
+      "accepted_normalized_units": [
+        "mmol/l",
+        "mmole/l"
+      ],
+      "rule": "Both source unit fields must be compatible; blank interface permitted as in v1. No numeric unit conversion."
+    }
+  }
+}

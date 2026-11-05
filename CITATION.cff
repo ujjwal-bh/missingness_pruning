@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using this analysis. No publication DOI has been assigned in this record."
+title: "Pruning missingness indicators by marginal rate shifts for ICU mortality prediction"
+type: software
+authors:
+  - family-names: Bhattarai
+    given-names: Ujjwal
+  - family-names: Sharma
+    given-names: Kriti
+date-released: 2026-11-05
+abstract: "Source-developed mortality prediction and label-free missingness indicator pruning in an exploratory 24-hour MIMIC-IV to eICU benchmark."

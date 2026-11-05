@@ -1,0 +1,2 @@
+# Preserve bytes used by the historical SHA256 checks across Windows and Linux.
+* -text

@@ -1,0 +1,136 @@
+{
+  "status": "Structural, bounds, count, outcome and exact patient-split checks passed; extreme-value clinical-validity concerns remain",
+  "inputs": {
+    "mimic_candidate_features.csv": {
+      "rows": 196307,
+      "sha256": "d58cbc69b0f101d5bdc4247fec5b32df66ada2aa59d7dc9f8b20ad6979b84589",
+      "bytes": 32717110
+    },
+    "eicu_candidate_features.csv": {
+      "rows": 378955,
+      "sha256": "298aa8c257ac0d3e99604fa12ca6a4dc08bae60e18522d9a7fbee19e95a4d975",
+      "bytes": 54604304
+    }
+  },
+  "split_counts": [
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 12,
+      "split": "test",
+      "patients": 9481,
+      "deaths": 1115
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 12,
+      "split": "train",
+      "patients": 44115,
+      "deaths": 4964
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 12,
+      "split": "validation",
+      "patients": 9602,
+      "deaths": 1060
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 24,
+      "split": "test",
+      "patients": 8149,
+      "deaths": 1023
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 24,
+      "split": "train",
+      "patients": 37872,
+      "deaths": 4411
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 24,
+      "split": "validation",
+      "patients": 8245,
+      "deaths": 926
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 36,
+      "split": "test",
+      "patients": 6515,
+      "deaths": 925
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 36,
+      "split": "train",
+      "patients": 30250,
+      "deaths": 3998
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 36,
+      "split": "validation",
+      "patients": 6535,
+      "deaths": 836
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 48,
+      "split": "test",
+      "patients": 5332,
+      "deaths": 835
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 48,
+      "split": "train",
+      "patients": 24860,
+      "deaths": 3596
+    },
+    {
+      "dataset": "MIMIC",
+      "landmark_hours": 48,
+      "split": "validation",
+      "patients": 5351,
+      "deaths": 739
+    },
+    {
+      "dataset": "eICU",
+      "landmark_hours": 12,
+      "split": "external",
+      "patients": 129272,
+      "deaths": 11050
+    },
+    {
+      "dataset": "eICU",
+      "landmark_hours": 24,
+      "split": "external",
+      "patients": 103337,
+      "deaths": 9565
+    },
+    {
+      "dataset": "eICU",
+      "landmark_hours": 36,
+      "split": "external",
+      "patients": 82724,
+      "deaths": 8450
+    },
+    {
+      "dataset": "eICU",
+      "landmark_hours": 48,
+      "split": "external",
+      "patients": 63622,
+      "deaths": 7447
+    }
+  ],
+  "cross_split_patients": 0,
+  "primary_clinical_concepts": 26,
+  "quality_limitations": [
+    "Broad artifact screens are not normal ranges or proof of clinical plausibility",
+    "Examples include eICU sodium 13.6 and very low monitor values",
+    "Training-derived cap sensitivity is prespecified before predictive evaluation; no raw-source correction claimed"
+  ]
+}

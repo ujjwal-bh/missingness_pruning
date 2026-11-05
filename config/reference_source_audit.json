@@ -1,0 +1,23 @@
+{
+  "status": "offline integrity and harmonization-assumption audit completed",
+  "source_sha256": {
+    "07_build_mimic_core_candidate_features.sql": "ff9d05a9ddcd85bfbe6ec78aad019152345868cb2b9f3c70cea20eebb8c05436",
+    "build_eicu_candidate_features_sql.py": "ab1f67380375c9b1a24c118eb2afd25cc38af7461638f90676e32b0bf14d95fa",
+    "08_correct_eicu_lab_unit_aliases.sql": "1c8727e82859f698f27398af1b54199f4bcc63a8ca3589acecac1fa0db99516a",
+    "eicu_temperature_stage/import_and_build_temperature.sql": "acd4821e84e6a0bdaf53d3d7027f1ce6030e030f69f0c4533c4caf8a0abf1d21",
+    "15_final_feature_audit_and_export.sql": "2554672f692c307b8d4fb9062d85042cd27fec9f906493face0e813f25522480",
+    "05_harmonize_patient_contribution.sql": "cada9943988bcbcab3b648e525b145064e45f1310e75693e38be96dd55e3632a",
+    "predictor_cleaning_rules_v1.json": "e67a133cd2b6e69fa5d33cf1352a17c1882e819082d8f466d7f4ad30fe7be40a",
+    "eicu_core_feature_preparation_notes.md": "5322ac0e0b0927e2938cfbb2520efe4c348c6b6d3d5de9e78f4e3b8745b3394d",
+    "eicu_temperature_integration_decisions_2026_10_15.md": "822f92fb9431f89df7d0ed1b8c14da95dd61caf5674d492989eb4fca50fe676b"
+  },
+  "input_sha256": {
+    "mimic_candidate_features.csv": "d58cbc69b0f101d5bdc4247fec5b32df66ada2aa59d7dc9f8b20ad6979b84589",
+    "eicu_candidate_features.csv": "298aa8c257ac0d3e99604fa12ca6a4dc08bae60e18522d9a7fbee19e95a4d975"
+  },
+  "raw_timestamp_reaudit_performed": false,
+  "database_metadata_audit_pending": false,
+  "code_sha256": "b5b6fdabd47020553816bb421a301dbbea882c54adb034ab58eee063c9d6c3e4",
+  "preprocessing_changed": false,
+  "model_fitting": false
+}

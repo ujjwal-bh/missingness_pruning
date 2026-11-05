@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-15",
+  "decision_evidence": "Explicit researcher selection: 26 core predictors for primary; GCS/treatment extensions separately (recommended)",
+  "primary_predictors": [
+    "age_capped_90",
+    "female",
+    "creatinine",
+    "bun",
+    "sodium",
+    "potassium",
+    "chloride",
+    "bicarbonate",
+    "glucose",
+    "hemoglobin",
+    "hematocrit",
+    "wbc",
+    "platelets",
+    "calcium_total",
+    "magnesium",
+    "phosphate",
+    "albumin",
+    "bilirubin_total",
+    "lactate",
+    "heart_rate",
+    "respiratory_rate",
+    "spo2",
+    "temperature",
+    "systolic_bp",
+    "diastolic_bp",
+    "mean_bp"
+  ],
+  "primary_model": "Ridge (L2) logistic regression",
+  "primary_landmark_hours": 24,
+  "other_landmarks_hours": [
+    12,
+    36,
+    48
+  ],
+  "gcs_and_treatment_scope": "Separate supplementary/sensitivity analyses; source limitations retained",
+  "status": "Primary predictor scope approved before model fitting; final distribution audit and preprocessing specification pending",
+  "rules_sha256": "e67a133cd2b6e69fa5d33cf1352a17c1882e819082d8f466d7f4ad30fe7be40a"
+}

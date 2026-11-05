@@ -1,0 +1,1644 @@
+{
+  "status": "Candidate cleaning rules v1; feature validation and remaining domain harmonization pending",
+  "source": "Local MIMIC item dictionaries, eICU table headers and full eICU lab name/unit inventory",
+  "variables": [
+    {
+      "variable": "creatinine",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50912,
+        52546
+      ],
+      "mimic_label": "Creatinine",
+      "eicu_labname": "creatinine",
+      "target_unit": "mg/dL",
+      "eicu_source_records": 1277760,
+      "eicu_unit_combinations": [
+        {
+          "system": "mg/dL",
+          "interface": "mg/dL",
+          "records": 1159507
+        },
+        {
+          "system": "mg/dL",
+          "interface": "MG/DL",
+          "records": 78742
+        },
+        {
+          "system": "mg/dL",
+          "interface": "mg/dl",
+          "records": 39509
+        },
+        {
+          "system": "mg/dL",
+          "interface": "",
+          "records": 2
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 150,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "mg/dl"
+      ]
+    },
+    {
+      "variable": "bun",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        51006,
+        52647
+      ],
+      "mimic_label": "Urea Nitrogen",
+      "eicu_labname": "BUN",
+      "target_unit": "mg/dL",
+      "eicu_source_records": 1270484,
+      "eicu_unit_combinations": [
+        {
+          "system": "mg/dL",
+          "interface": "mg/dL",
+          "records": 1155574
+        },
+        {
+          "system": "mg/dL",
+          "interface": "MG/DL",
+          "records": 75237
+        },
+        {
+          "system": "mg/dL",
+          "interface": "mg/dl",
+          "records": 37486
+        },
+        {
+          "system": "mg/dL",
+          "interface": "",
+          "records": 2187
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 300,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "mg/dl"
+      ]
+    },
+    {
+      "variable": "sodium",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50983,
+        52623
+      ],
+      "mimic_label": "Sodium",
+      "eicu_labname": "sodium",
+      "target_unit": "mmol/L",
+      "eicu_source_records": 1393205,
+      "eicu_unit_combinations": [
+        {
+          "system": "mmol/L",
+          "interface": "mmol/L",
+          "records": 1125069
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mEq/L",
+          "records": 136516
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MEQ/L",
+          "records": 58846
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MMOL/L",
+          "records": 28164
+        },
+        {
+          "system": "mmol/L",
+          "interface": "meq/L",
+          "records": 27665
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mmol/l",
+          "records": 10937
+        },
+        {
+          "system": "mmol/L",
+          "interface": "meq/l",
+          "records": 2440
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mMOL/L",
+          "records": 1834
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MMOLL",
+          "records": 1132
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mEq/l",
+          "records": 602
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 200,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "meq/l",
+        "mmol/l"
+      ]
+    },
+    {
+      "variable": "potassium",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50971,
+        52610
+      ],
+      "mimic_label": "Potassium",
+      "eicu_labname": "potassium",
+      "target_unit": "mmol/L",
+      "eicu_source_records": 1493261,
+      "eicu_unit_combinations": [
+        {
+          "system": "mmol/L",
+          "interface": "mmol/L",
+          "records": 1213161
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mEq/L",
+          "records": 141618
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MEQ/L",
+          "records": 55080
+        },
+        {
+          "system": "mmol/L",
+          "interface": "meq/L",
+          "records": 34119
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MMOL/L",
+          "records": 29166
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mmol/l",
+          "records": 10949
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mEq/mL",
+          "records": 2768
+        },
+        {
+          "system": "mmol/L",
+          "interface": "meq/l",
+          "records": 2587
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mMOL/L",
+          "records": 1850
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MMOLL",
+          "records": 1175
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mEq/l",
+          "records": 752
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mmoL/L",
+          "records": 36
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 30,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "meq/l",
+        "mmol/l"
+      ]
+    },
+    {
+      "variable": "chloride",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50902,
+        52535
+      ],
+      "mimic_label": "Chloride",
+      "eicu_labname": "chloride",
+      "target_unit": "mmol/L",
+      "eicu_source_records": 1283839,
+      "eicu_unit_combinations": [
+        {
+          "system": "mmol/L",
+          "interface": "mmol/L",
+          "records": 1034375
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mEq/L",
+          "records": 129537
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MEQ/L",
+          "records": 58435
+        },
+        {
+          "system": "mmol/L",
+          "interface": "meq/L",
+          "records": 27334
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MMOL/L",
+          "records": 26884
+        },
+        {
+          "system": "mmol/L",
+          "interface": "meq/l",
+          "records": 2439
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mMOL/L",
+          "records": 1834
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MMOLL",
+          "records": 1101
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mmol/l",
+          "records": 992
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mEq/l",
+          "records": 893
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MM0L/L",
+          "records": 13
+        },
+        {
+          "system": "mmol/L",
+          "interface": "",
+          "records": 2
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "meq/l",
+        "mmol/l"
+      ]
+    },
+    {
+      "variable": "bicarbonate",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50882
+      ],
+      "mimic_label": "Bicarbonate",
+      "eicu_labname": "bicarbonate",
+      "target_unit": "mmol/L",
+      "eicu_source_records": 1199866,
+      "eicu_unit_combinations": [
+        {
+          "system": "mmol/L",
+          "interface": "mmol/L",
+          "records": 987205
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mEq/L",
+          "records": 63208
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MEQ/L",
+          "records": 52641
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MMOL/L",
+          "records": 32348
+        },
+        {
+          "system": "mmol/L",
+          "interface": "meq/L",
+          "records": 27327
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mmol/l",
+          "records": 27150
+        },
+        {
+          "system": "mmol/L",
+          "interface": "meq/l",
+          "records": 2439
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mmole/L",
+          "records": 2134
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mMOL/L",
+          "records": 1825
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MEQ/ML",
+          "records": 1795
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MMOLL",
+          "records": 1101
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mEq/l",
+          "records": 586
+        },
+        {
+          "system": "mmol/L",
+          "interface": "",
+          "records": 107
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "meq/l",
+        "mmol/l"
+      ]
+    },
+    {
+      "variable": "glucose",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50931,
+        52569
+      ],
+      "mimic_label": "Glucose",
+      "eicu_labname": "glucose",
+      "target_unit": "mg/dL",
+      "eicu_source_records": 1319496,
+      "eicu_unit_combinations": [
+        {
+          "system": "mg/dL",
+          "interface": "mg/dL",
+          "records": 1200903
+        },
+        {
+          "system": "mg/dL",
+          "interface": "MG/DL",
+          "records": 78922
+        },
+        {
+          "system": "mg/dL",
+          "interface": "mg/dl",
+          "records": 39671
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "mg/dl"
+      ]
+    },
+    {
+      "variable": "hemoglobin",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        51222,
+        51640
+      ],
+      "mimic_label": "Hemoglobin",
+      "eicu_labname": "Hgb",
+      "target_unit": "g/dL",
+      "eicu_source_records": 1298708,
+      "eicu_unit_combinations": [
+        {
+          "system": "g/dL",
+          "interface": "g/dL",
+          "records": 1124391
+        },
+        {
+          "system": "g/dL",
+          "interface": "gm/dL",
+          "records": 62717
+        },
+        {
+          "system": "g/dL",
+          "interface": "G/DL",
+          "records": 51563
+        },
+        {
+          "system": "g/dL",
+          "interface": "g/dl",
+          "records": 37812
+        },
+        {
+          "system": "g/dL",
+          "interface": "GM/DL",
+          "records": 21323
+        },
+        {
+          "system": "g/dL",
+          "interface": "gm/dl",
+          "records": 793
+        },
+        {
+          "system": "g/dL",
+          "interface": "Gm/dL",
+          "records": 102
+        },
+        {
+          "system": "g/dL",
+          "interface": "%",
+          "records": 4
+        },
+        {
+          "system": "g/dL",
+          "interface": "G/dL",
+          "records": 3
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "g/dl"
+      ]
+    },
+    {
+      "variable": "hematocrit",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        51221,
+        51638,
+        51639
+      ],
+      "mimic_label": "Hematocrit",
+      "eicu_labname": "Hct",
+      "target_unit": "%",
+      "eicu_source_records": 1279704,
+      "eicu_unit_combinations": [
+        {
+          "system": "%",
+          "interface": "%",
+          "records": 1276963
+        },
+        {
+          "system": "%",
+          "interface": "%PCV",
+          "records": 2739
+        },
+        {
+          "system": "%",
+          "interface": "",
+          "records": 2
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 100,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "%"
+      ]
+    },
+    {
+      "variable": "wbc",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        51301,
+        51755,
+        51756,
+        51300
+      ],
+      "mimic_label": "White Blood Cells",
+      "eicu_labname": "WBC x 1000",
+      "target_unit": "10^3/uL",
+      "eicu_source_records": 1134952,
+      "eicu_unit_combinations": [
+        {
+          "system": "K/mcL",
+          "interface": "K/uL",
+          "records": 370754
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/mcL",
+          "records": 127426
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/MM3",
+          "records": 114051
+        },
+        {
+          "system": "K/mcL",
+          "interface": "th/mm3",
+          "records": 65265
+        },
+        {
+          "system": "K/mcL",
+          "interface": "k/mm cu",
+          "records": 45616
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10(3)/mcL",
+          "records": 35300
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/CMM",
+          "records": 34934
+        },
+        {
+          "system": "K/mcL",
+          "interface": "TH/cmm",
+          "records": 31279
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10E3/mcL",
+          "records": 30265
+        },
+        {
+          "system": "K/mcL",
+          "interface": "/nL",
+          "records": 28202
+        },
+        {
+          "system": "K/mcL",
+          "interface": "th/uL",
+          "records": 27331
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/cmm",
+          "records": 24624
+        },
+        {
+          "system": "K/mcL",
+          "interface": "thou/cumm",
+          "records": 24296
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/ul",
+          "records": 23324
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10 3/uL",
+          "records": 20807
+        },
+        {
+          "system": "K/mcL",
+          "interface": "TH/uL",
+          "records": 20056
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10*3/uL",
+          "records": 17305
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10",
+          "records": 8860
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/mm3",
+          "records": 8249
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x(10)3/uL",
+          "records": 8092
+        },
+        {
+          "system": "K/mcL",
+          "interface": "k/uL",
+          "records": 8024
+        },
+        {
+          "system": "K/mcL",
+          "interface": "THS/uL",
+          "records": 7810
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10^3/uL",
+          "records": 6575
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10X3/MM",
+          "records": 4858
+        },
+        {
+          "system": "K/mcL",
+          "interface": "X10\"3",
+          "records": 4263
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10 (3)",
+          "records": 4213
+        },
+        {
+          "system": "K/mcL",
+          "interface": "*10^3/uL",
+          "records": 3560
+        },
+        {
+          "system": "K/mcL",
+          "interface": "THOU/UL",
+          "records": 3359
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10E3/uL",
+          "records": 2937
+        },
+        {
+          "system": "K/mcL",
+          "interface": "thou/cmm",
+          "records": 2186
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10E3/uL",
+          "records": 2140
+        },
+        {
+          "system": "K/mcL",
+          "interface": "1000/cmm",
+          "records": 1938
+        },
+        {
+          "system": "K/mcL",
+          "interface": "Thou/cmm",
+          "records": 1711
+        },
+        {
+          "system": "K/mcL",
+          "interface": "X1000",
+          "records": 1482
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10*3",
+          "records": 1460
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10*9/l",
+          "records": 1364
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10x3/ul",
+          "records": 1359
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/cumm",
+          "records": 1248
+        },
+        {
+          "system": "K/mcL",
+          "interface": "th/cumm",
+          "records": 1102
+        },
+        {
+          "system": "K/mcL",
+          "interface": "k/MM3",
+          "records": 1062
+        },
+        {
+          "system": "K/mcL",
+          "interface": "X10-3",
+          "records": 1049
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10(3)/mcL",
+          "records": 950
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10E3",
+          "records": 931
+        },
+        {
+          "system": "K/mcL",
+          "interface": "X 10 3",
+          "records": 808
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10 3/uL",
+          "records": 589
+        },
+        {
+          "system": "K/mcL",
+          "interface": "thous/uL",
+          "records": 576
+        },
+        {
+          "system": "K/mcL",
+          "interface": "thou/mm3",
+          "records": 442
+        },
+        {
+          "system": "K/mcL",
+          "interface": "thou/uL",
+          "records": 370
+        },
+        {
+          "system": "K/mcL",
+          "interface": "k/ul",
+          "records": 303
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10*3",
+          "records": 128
+        },
+        {
+          "system": "K/mcL",
+          "interface": "X10 3/uL",
+          "records": 72
+        },
+        {
+          "system": "K/mcL",
+          "interface": "ZZ",
+          "records": 27
+        },
+        {
+          "system": "K/mcL",
+          "interface": "THOU/MM3",
+          "records": 14
+        },
+        {
+          "system": "K/mcL",
+          "interface": "",
+          "records": 6
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "k/ul",
+        "10^3/ul",
+        "10^9/l"
+      ],
+      "mapping_note": "Includes WBC Count 51300 as documented in the MIT-LCP blood differential concept, in addition to exact-label dictionary mappings."
+    },
+    {
+      "variable": "platelets",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        51265,
+        53189
+      ],
+      "mimic_label": "Platelet Count",
+      "eicu_labname": "platelets x 1000",
+      "target_unit": "10^3/uL",
+      "eicu_source_records": 1149488,
+      "eicu_unit_combinations": [
+        {
+          "system": "K/mcL",
+          "interface": "K/uL",
+          "records": 373999
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/mcL",
+          "records": 128171
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/MM3",
+          "records": 114264
+        },
+        {
+          "system": "K/mcL",
+          "interface": "k/mm cu",
+          "records": 45789
+        },
+        {
+          "system": "K/mcL",
+          "interface": "th/mm3",
+          "records": 40404
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/CMM",
+          "records": 35208
+        },
+        {
+          "system": "K/mcL",
+          "interface": "TH/cmm",
+          "records": 31577
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10E3/mcL",
+          "records": 31219
+        },
+        {
+          "system": "K/mcL",
+          "interface": "/nL",
+          "records": 29951
+        },
+        {
+          "system": "K/mcL",
+          "interface": "th/uL",
+          "records": 27528
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10(3)/mcL",
+          "records": 24966
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10E3/uL",
+          "records": 24486
+        },
+        {
+          "system": "K/mcL",
+          "interface": "thou/cumm",
+          "records": 24334
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/ul",
+          "records": 23839
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/cmm",
+          "records": 23541
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10 3/uL",
+          "records": 20843
+        },
+        {
+          "system": "K/mcL",
+          "interface": "TH/uL",
+          "records": 20596
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10*3/uL",
+          "records": 17417
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10(3)mcL",
+          "records": 12834
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10",
+          "records": 8877
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x(10)3/uL",
+          "records": 8641
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/mm3",
+          "records": 8265
+        },
+        {
+          "system": "K/mcL",
+          "interface": "k/uL",
+          "records": 8063
+        },
+        {
+          "system": "K/mcL",
+          "interface": "THS/uL",
+          "records": 7824
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10^3/uL",
+          "records": 7167
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10X3",
+          "records": 4858
+        },
+        {
+          "system": "K/mcL",
+          "interface": "X10\"3",
+          "records": 4263
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10 (3)",
+          "records": 4207
+        },
+        {
+          "system": "K/mcL",
+          "interface": "bil/L",
+          "records": 3916
+        },
+        {
+          "system": "K/mcL",
+          "interface": "*10^3/uL",
+          "records": 3562
+        },
+        {
+          "system": "K/mcL",
+          "interface": "THOU/UL",
+          "records": 3349
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10E3/uL",
+          "records": 2941
+        },
+        {
+          "system": "K/mcL",
+          "interface": "thou/cmm",
+          "records": 2191
+        },
+        {
+          "system": "K/mcL",
+          "interface": "1000/cmm",
+          "records": 1948
+        },
+        {
+          "system": "K/mcL",
+          "interface": "Thou/cmm",
+          "records": 1714
+        },
+        {
+          "system": "K/mcL",
+          "interface": "Thousand",
+          "records": 1636
+        },
+        {
+          "system": "K/mcL",
+          "interface": "X1000",
+          "records": 1487
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10*3",
+          "records": 1460
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10*9/l",
+          "records": 1364
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10x3/uL",
+          "records": 1363
+        },
+        {
+          "system": "K/mcL",
+          "interface": "K/cumm",
+          "records": 1305
+        },
+        {
+          "system": "K/mcL",
+          "interface": "th/cumm",
+          "records": 1101
+        },
+        {
+          "system": "K/mcL",
+          "interface": "k/mm3",
+          "records": 1078
+        },
+        {
+          "system": "K/mcL",
+          "interface": "X10-3",
+          "records": 1055
+        },
+        {
+          "system": "K/mcL",
+          "interface": "x10(3)/mcL",
+          "records": 958
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10E3",
+          "records": 931
+        },
+        {
+          "system": "K/mcL",
+          "interface": "X 10 3",
+          "records": 800
+        },
+        {
+          "system": "K/mcL",
+          "interface": "thous/uL",
+          "records": 601
+        },
+        {
+          "system": "K/mcL",
+          "interface": "THD/UL",
+          "records": 529
+        },
+        {
+          "system": "K/mcL",
+          "interface": "thou/mm3",
+          "records": 446
+        },
+        {
+          "system": "K/mcL",
+          "interface": "thou/uL",
+          "records": 373
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10*3",
+          "records": 128
+        },
+        {
+          "system": "K/mcL",
+          "interface": "10 3/uL",
+          "records": 72
+        },
+        {
+          "system": "K/mcL",
+          "interface": "ZZ",
+          "records": 26
+        },
+        {
+          "system": "K/mcL",
+          "interface": "THOU/MM3",
+          "records": 14
+        },
+        {
+          "system": "K/mcL",
+          "interface": "",
+          "records": 9
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "k/ul",
+        "10^3/ul",
+        "10^9/l"
+      ]
+    },
+    {
+      "variable": "calcium_total",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50893
+      ],
+      "mimic_label": "Calcium, Total",
+      "eicu_labname": "calcium",
+      "target_unit": "mg/dL",
+      "eicu_source_records": 1226978,
+      "eicu_unit_combinations": [
+        {
+          "system": "mg/dL",
+          "interface": "mg/dL",
+          "records": 1116070
+        },
+        {
+          "system": "mg/dL",
+          "interface": "MG/DL",
+          "records": 75579
+        },
+        {
+          "system": "mg/dL",
+          "interface": "mg/dl",
+          "records": 35028
+        },
+        {
+          "system": "mg/dL",
+          "interface": "",
+          "records": 186
+        },
+        {
+          "system": "mg/dL",
+          "interface": "mmol/L",
+          "records": 115
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "mg/dl"
+      ]
+    },
+    {
+      "variable": "magnesium",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50960
+      ],
+      "mimic_label": "Magnesium",
+      "eicu_labname": "magnesium",
+      "target_unit": "mg/dL",
+      "eicu_source_records": 648642,
+      "eicu_unit_combinations": [
+        {
+          "system": "mg/dL",
+          "interface": "mg/dL",
+          "records": 599845
+        },
+        {
+          "system": "mg/dL",
+          "interface": "MG/DL",
+          "records": 31523
+        },
+        {
+          "system": "mg/dL",
+          "interface": "meq/L",
+          "records": 13119
+        },
+        {
+          "system": "mg/dL",
+          "interface": "mg/dl",
+          "records": 3856
+        },
+        {
+          "system": "mg/dL",
+          "interface": "MEQ/L",
+          "records": 262
+        },
+        {
+          "system": "mg/dL",
+          "interface": "mEq/L",
+          "records": 37
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "mg/dl"
+      ]
+    },
+    {
+      "variable": "phosphate",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50970
+      ],
+      "mimic_label": "Phosphate",
+      "eicu_labname": "phosphate",
+      "target_unit": "mg/dL",
+      "eicu_source_records": 425439,
+      "eicu_unit_combinations": [
+        {
+          "system": "mg/dL",
+          "interface": "mg/dL",
+          "records": 401809
+        },
+        {
+          "system": "mg/dL",
+          "interface": "MG/DL",
+          "records": 16956
+        },
+        {
+          "system": "mg/dL",
+          "interface": "mg/dl",
+          "records": 6673
+        },
+        {
+          "system": "mg/dL",
+          "interface": "",
+          "records": 1
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "mg/dl"
+      ]
+    },
+    {
+      "variable": "albumin",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50862,
+        53085
+      ],
+      "mimic_label": "Albumin",
+      "eicu_labname": "albumin",
+      "target_unit": "g/dL",
+      "eicu_source_records": 506025,
+      "eicu_unit_combinations": [
+        {
+          "system": "g/dL",
+          "interface": "g/dL",
+          "records": 428449
+        },
+        {
+          "system": "g/dL",
+          "interface": "gm/dL",
+          "records": 33375
+        },
+        {
+          "system": "g/dL",
+          "interface": "G/DL",
+          "records": 23203
+        },
+        {
+          "system": "g/dL",
+          "interface": "GM/DL",
+          "records": 9719
+        },
+        {
+          "system": "g/dL",
+          "interface": "g/dl",
+          "records": 8349
+        },
+        {
+          "system": "g/dL",
+          "interface": "gm/dl",
+          "records": 2904
+        },
+        {
+          "system": "g/dL",
+          "interface": "%",
+          "records": 26
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "g/dl"
+      ]
+    },
+    {
+      "variable": "bilirubin_total",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50885,
+        53089
+      ],
+      "mimic_label": "Bilirubin, Total",
+      "eicu_labname": "total bilirubin",
+      "target_unit": "mg/dL",
+      "eicu_source_records": 427307,
+      "eicu_unit_combinations": [
+        {
+          "system": "mg/dL",
+          "interface": "mg/dL",
+          "records": 390465
+        },
+        {
+          "system": "mg/dL",
+          "interface": "MG/DL",
+          "records": 27659
+        },
+        {
+          "system": "mg/dL",
+          "interface": "mg/dl",
+          "records": 9181
+        },
+        {
+          "system": "mg/dL",
+          "interface": "",
+          "records": 2
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "mg/dl"
+      ]
+    },
+    {
+      "variable": "lactate",
+      "domain": "laboratory",
+      "mimic_itemids": [
+        50813,
+        52442,
+        53154
+      ],
+      "mimic_label": "Lactate",
+      "eicu_labname": "lactate",
+      "target_unit": "mmol/L",
+      "eicu_source_records": 205591,
+      "eicu_unit_combinations": [
+        {
+          "system": "mmol/L",
+          "interface": "mmol/L",
+          "records": 183549
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MMOL/L",
+          "records": 16545
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mEq/L",
+          "records": 3521
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mmol/l",
+          "records": 782
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mMol/L",
+          "records": 746
+        },
+        {
+          "system": "mmol/L",
+          "interface": "mmole/L",
+          "records": 220
+        },
+        {
+          "system": "mmol/L",
+          "interface": "MMOLL",
+          "records": 165
+        },
+        {
+          "system": "mmol/L",
+          "interface": "",
+          "records": 63
+        }
+      ],
+      "status": "Name mapping confirmed; specimen, units, source hierarchy and availability rules not locked",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 10000,
+      "lower_inclusive": true,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "mmol/l"
+      ]
+    },
+    {
+      "variable": "heart_rate",
+      "domain": "vital",
+      "mimic_itemids": [
+        220045
+      ],
+      "eicu_table": "vitalPeriodic",
+      "eicu_columns": "heartrate",
+      "target_unit": "bpm",
+      "status": "Source fields confirmed; source priority, units and eligible-window availability pending",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 300,
+      "lower_inclusive": false,
+      "upper_inclusive": false,
+      "units_accepted_mimic": [
+        "bpm"
+      ]
+    },
+    {
+      "variable": "respiratory_rate",
+      "domain": "vital",
+      "mimic_itemids": [
+        220210
+      ],
+      "eicu_table": "vitalPeriodic",
+      "eicu_columns": "respiration",
+      "target_unit": "breaths/min",
+      "status": "Source fields confirmed; source priority, units and eligible-window availability pending",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 70,
+      "lower_inclusive": false,
+      "upper_inclusive": false,
+      "units_accepted_mimic": [
+        "insp/min",
+        "breaths/min"
+      ]
+    },
+    {
+      "variable": "spo2",
+      "domain": "vital",
+      "mimic_itemids": [
+        220277
+      ],
+      "eicu_table": "vitalPeriodic",
+      "eicu_columns": "sao2",
+      "target_unit": "%",
+      "status": "Source fields confirmed; source priority, units and eligible-window availability pending",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 100,
+      "lower_inclusive": false,
+      "upper_inclusive": true,
+      "units_accepted_mimic": [
+        "%"
+      ]
+    },
+    {
+      "variable": "temperature",
+      "domain": "vital",
+      "mimic_itemids": [
+        223761,
+        223762
+      ],
+      "eicu_table": "vitalPeriodic",
+      "eicu_columns": "temperature",
+      "target_unit": "Celsius",
+      "status": "Source fields confirmed; source priority, units and eligible-window availability pending",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 10,
+      "upper_bound": 50,
+      "lower_inclusive": false,
+      "upper_inclusive": false,
+      "units_accepted_mimic": [
+        "\u00b0c",
+        "\u00b0f",
+        "\u00e2\u00b0c",
+        "\u00e2\u00b0f"
+      ]
+    },
+    {
+      "variable": "systolic_bp",
+      "domain": "vital",
+      "mimic_itemids": [
+        220050,
+        220179
+      ],
+      "eicu_table": "vitalPeriodic/vitalAperiodic",
+      "eicu_columns": "systemicsystolic/noninvasivesystolic",
+      "target_unit": "mmHg",
+      "status": "Source fields confirmed; source priority, units and eligible-window availability pending",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 400,
+      "lower_inclusive": false,
+      "upper_inclusive": false,
+      "units_accepted_mimic": [
+        "mmhg"
+      ]
+    },
+    {
+      "variable": "diastolic_bp",
+      "domain": "vital",
+      "mimic_itemids": [
+        220051,
+        220180
+      ],
+      "eicu_table": "vitalPeriodic/vitalAperiodic",
+      "eicu_columns": "systemicdiastolic/noninvasivediastolic",
+      "target_unit": "mmHg",
+      "status": "Source fields confirmed; source priority, units and eligible-window availability pending",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 300,
+      "lower_inclusive": false,
+      "upper_inclusive": false,
+      "units_accepted_mimic": [
+        "mmhg"
+      ]
+    },
+    {
+      "variable": "mean_bp",
+      "domain": "vital",
+      "mimic_itemids": [
+        220052,
+        220181
+      ],
+      "eicu_table": "vitalPeriodic/vitalAperiodic",
+      "eicu_columns": "systemicmean/noninvasivemean",
+      "target_unit": "mmHg",
+      "status": "Source fields confirmed; source priority, units and eligible-window availability pending",
+      "aggregation_proposed": "Latest valid observed value whose information is available by landmark; no pre-ICU point observations; no future filling",
+      "lower_bound": 0,
+      "upper_bound": 300,
+      "lower_inclusive": false,
+      "upper_inclusive": false,
+      "units_accepted_mimic": [
+        "mmhg"
+      ]
+    }
+  ],
+  "pending_domains": [
+    "GCS total: numeric eICU nursing total versus contemporaneous MIMIC components; intubation/sedation handling",
+    "Invasive ventilation: recorded intervention evidence, not airway alone",
+    "Vasopressors: positive infusion evidence, not medication order alone; no dose-equivalence conversion yet",
+    "Renal replacement therapy: explicit dialysis procedure evidence, not catheter/history alone",
+    "Blood gases: arterial specimen and units must be verified"
+  ],
+  "shared_rules_pending": [
+    "aggregation",
+    "implausible-value bounds",
+    "duplicate/tie handling",
+    "missing units",
+    "availability timestamps",
+    "missing-data strategy"
+  ],
+  "unit_warning": "System and interface units can disagree; do not blindly pool or convert by label alone. Ionized calcium held pending unit interpretation.",
+  "demographics": {
+    "age": "Admission-age estimate capped at 90 in both datasets. eICU >89 maps to 90; this is top coding, not an exact age estimate.",
+    "sex": "Female=1, Male=0; Other/Unknown/blank remains missing rather than being silently coded male."
+  },
+  "primary_core_concepts_proposed": 26,
+  "missingness": "Candidate table is not imputed or scaled. No predictor-based patient exclusions.",
+  "availability_proposed": "Require nonmissing event and availability timestamp through landmark when available in source. Use max(event, entry/revision time) as conservative availability bound without altering raw fields. Explicit sensitivity for event-time-only availability; do not silently carry future revised values backward.",
+  "bounds_source": "MIT-LCP vitalsign.sql and chemistry.sql; adapted common Celsius bounds, conservative broad screening for other labs; these are artifact screens, not normal clinical reference ranges",
+  "unknown_units": "Reject observation from candidate features and count it; preserve raw source data",
+  "time_rule": "Both event and storetime required; max(event,storetime)<=landmark. Earlier entry times retained with conservative event-time bound and counted, never rewritten.",
+  "invalid_values": "Reject invalid or nonfinite observations, keep patient row and older valid available observation where present. Do not clip raw values."
+}

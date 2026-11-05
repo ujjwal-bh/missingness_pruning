@@ -1,0 +1,127 @@
+{
+  "version": "harmonized_hospital_priority_v1",
+  "date": "2026-10-13",
+  "evidence": "Researcher supplied successful psql COMMIT, metadata copy counts, validation and cohort reports",
+  "patient_metadata_rows": 200859,
+  "hospital_metadata_rows": 208,
+  "seed": "landmark_transportability_hospital_selection_v1",
+  "selection_hash_test": "f2893146dbc113049053c42dc9852a2a53ae5e3be2c0f4f5db52cb9e8c036702",
+  "hash_matches_local_python": true,
+  "primary_cohorts": [
+    {
+      "database": "eICU",
+      "landmark_hours": 12,
+      "patients": 129272,
+      "distinct_patients": 129272,
+      "hospital_deaths": 11050,
+      "mortality_percent": 8.55
+    },
+    {
+      "database": "eICU",
+      "landmark_hours": 24,
+      "patients": 103337,
+      "distinct_patients": 103337,
+      "hospital_deaths": 9565,
+      "mortality_percent": 9.26
+    },
+    {
+      "database": "eICU",
+      "landmark_hours": 36,
+      "patients": 82724,
+      "distinct_patients": 82724,
+      "hospital_deaths": 8450,
+      "mortality_percent": 10.21
+    },
+    {
+      "database": "eICU",
+      "landmark_hours": 48,
+      "patients": 63622,
+      "distinct_patients": 63622,
+      "hospital_deaths": 7447,
+      "mortality_percent": 11.71
+    },
+    {
+      "database": "MIMIC",
+      "landmark_hours": 12,
+      "patients": 63198,
+      "distinct_patients": 63198,
+      "hospital_deaths": 7139,
+      "mortality_percent": 11.3
+    },
+    {
+      "database": "MIMIC",
+      "landmark_hours": 24,
+      "patients": 54266,
+      "distinct_patients": 54266,
+      "hospital_deaths": 6360,
+      "mortality_percent": 11.72
+    },
+    {
+      "database": "MIMIC",
+      "landmark_hours": 36,
+      "patients": 43300,
+      "distinct_patients": 43300,
+      "hospital_deaths": 5759,
+      "mortality_percent": 13.3
+    },
+    {
+      "database": "MIMIC",
+      "landmark_hours": 48,
+      "patients": 35543,
+      "distinct_patients": 35543,
+      "hospital_deaths": 5170,
+      "mortality_percent": 14.55
+    }
+  ],
+  "mimic_selection_impact": [
+    {
+      "landmark_hours": 12,
+      "patients": 63198,
+      "selected_stay_changed": 6478,
+      "selected_hospitalization_changed": 6478,
+      "priority_rule_deaths": 7139,
+      "chronological_rule_deaths": 6279,
+      "outcome_labels_changed": 860,
+      "changed_hospitalization_percent": 10.250324377353714,
+      "inferred_survival_to_death_labels": 860,
+      "inferred_death_to_survival_labels": 0
+    },
+    {
+      "landmark_hours": 24,
+      "patients": 54266,
+      "selected_stay_changed": 4963,
+      "selected_hospitalization_changed": 4963,
+      "priority_rule_deaths": 6360,
+      "chronological_rule_deaths": 5662,
+      "outcome_labels_changed": 698,
+      "changed_hospitalization_percent": 9.145689750488335,
+      "inferred_survival_to_death_labels": 698,
+      "inferred_death_to_survival_labels": 0
+    },
+    {
+      "landmark_hours": 36,
+      "patients": 43300,
+      "selected_stay_changed": 3624,
+      "selected_hospitalization_changed": 3624,
+      "priority_rule_deaths": 5759,
+      "chronological_rule_deaths": 5201,
+      "outcome_labels_changed": 558,
+      "changed_hospitalization_percent": 8.369515011547344,
+      "inferred_survival_to_death_labels": 558,
+      "inferred_death_to_survival_labels": 0
+    },
+    {
+      "landmark_hours": 48,
+      "patients": 35543,
+      "selected_stay_changed": 2583,
+      "selected_hospitalization_changed": 2583,
+      "priority_rule_deaths": 5170,
+      "chronological_rule_deaths": 4711,
+      "outcome_labels_changed": 459,
+      "changed_hospitalization_percent": 7.267253748980108,
+      "inferred_survival_to_death_labels": 459,
+      "inferred_death_to_survival_labels": 0
+    }
+  ],
+  "status": "Amended views committed and counts verified; predictor harmonization/modeling pending"
+}

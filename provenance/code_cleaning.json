@@ -1,0 +1,359 @@
+{
+  "date": "2026-11-05",
+  "new_model_training": false,
+  "scope": "Redundant Python comments only; analysis syntax trees unchanged. Hash-bound reference source files remain verbatim.",
+  "files": [
+    {
+      "path": "analysis/amendment_resampling.py",
+      "source": "code/analysis/amendment_resampling.py",
+      "original_sha256": "f8f4694c3ac143c5aec314c35c5d70183629708c14dc0ddff2ca300fb5588ce7",
+      "release_sha256": "f8f4694c3ac143c5aec314c35c5d70183629708c14dc0ddff2ca300fb5588ce7",
+      "original_AST_sha256": "803199c587feecc59e34cac2083c81112b31139d36613601830e16a0a7ad4db6",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/evidence_amendment_common.py",
+      "source": "code/analysis/evidence_amendment_common.py",
+      "original_sha256": "39751d054161d13542fab7d52adf5665684864e5fd28aeb07bac426957b4e02c",
+      "release_sha256": "39751d054161d13542fab7d52adf5665684864e5fd28aeb07bac426957b4e02c",
+      "original_AST_sha256": "a5fdfd90fcfa02202190e32fe452f3011b9c743f419b455f2bec6628480a0aa5",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/infer_missingness_pruning.py",
+      "source": "code/analysis/infer_missingness_pruning.py",
+      "original_sha256": "6cbaf5b3ba6e70f6781359b16439d257ddedf9f419ae8667c200f5b7e33f93a6",
+      "release_sha256": "7abf63ef76a0780aedf8033949eeada6e6ee38035c0bfe683bbc15cc872bb8c7",
+      "original_AST_sha256": "c7192a1939df75bc142662b4551d8b2f68afe0c21d615a27783e3a9bd07e6f25",
+      "python_AST_unchanged": true,
+      "removed_comments": [
+        {
+          "line": 39,
+          "comment": "# Calibration gets2000paired diagnostics; AUROC primary gets5000as locked."
+        }
+      ]
+    },
+    {
+      "path": "analysis/lock_pruning_evaluation.py",
+      "source": "code/analysis/lock_pruning_evaluation.py",
+      "original_sha256": "359439bb07beb97351d2272d59453fc7ade852cbf1cfbe10c23177c1e03c1115",
+      "release_sha256": "359439bb07beb97351d2272d59453fc7ade852cbf1cfbe10c23177c1e03c1115",
+      "original_AST_sha256": "659227187aa784c1f4762dd04e8b18d2f8bc7330997010388ca2297a4045d1f1",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/missingness_pruning_inputs.py",
+      "source": "code/analysis/missingness_pruning_inputs.py",
+      "original_sha256": "1e67f2bc7c3f067c233b99f6dfdbebac61e17eaca0c95f44242af4f3d741766e",
+      "release_sha256": "1e67f2bc7c3f067c233b99f6dfdbebac61e17eaca0c95f44242af4f3d741766e",
+      "original_AST_sha256": "03cf7254b6787cbabb8611701824c343f829d85a004e9ce302cb8861380e974c",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/missingness_pruning_models.py",
+      "source": "code/analysis/missingness_pruning_models.py",
+      "original_sha256": "da4b92aa6f62d69faadc5623af49f7ca66bf1b91287c3dff1d76866fc229094a",
+      "release_sha256": "da4b92aa6f62d69faadc5623af49f7ca66bf1b91287c3dff1d76866fc229094a",
+      "original_AST_sha256": "4790b6ec704e7740c28807b687b0a22dd7a55c0b19973ed6477f1d88619c9987",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/prepare_missingness_pruning.py",
+      "source": "code/analysis/prepare_missingness_pruning.py",
+      "original_sha256": "6d56489a45addd4041299c55f414673be054140a30a2ba9607fb8f572bfcf96e",
+      "release_sha256": "5b4ff066799673cf93ed09db2bd6f65e770ca9d5e6eeffe0f019b2209ca50de6",
+      "original_AST_sha256": "446ac08774f033a8e8d2b171a971a6609c8aa4f70e20ae619dedfbaee4979981",
+      "python_AST_unchanged": true,
+      "removed_comments": [
+        {
+          "line": 58,
+          "comment": "# Explicit uncertainty diagnostic for the fixed label-free rule. Outcomes are absent."
+        }
+      ]
+    },
+    {
+      "path": "analysis/pruning_full_pipeline.py",
+      "source": "code/analysis/pruning_full_pipeline.py",
+      "original_sha256": "1c6f014ceca4f064d6c08af2fab51566bbf5f1fc529d2d7176d3427da8645e0a",
+      "release_sha256": "1c6f014ceca4f064d6c08af2fab51566bbf5f1fc529d2d7176d3427da8645e0a",
+      "original_AST_sha256": "68633e5b12af30c66ed68034a108eb930026baf76a6c7cfdff3302caece6c37d",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/pruning_hospital_heterogeneity.py",
+      "source": "code/analysis/pruning_hospital_heterogeneity.py",
+      "original_sha256": "8cb89b3670836fd2e771717119f6f7b6c72f789415c5b2250a8fbdcc8ad4ea84",
+      "release_sha256": "8cb89b3670836fd2e771717119f6f7b6c72f789415c5b2250a8fbdcc8ad4ea84",
+      "original_AST_sha256": "1566a55457a64ea227a833aacb42338a83d9a2be15380da4e298d00271124863",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/revised_mimic_models.py",
+      "source": "code/analysis/revised_mimic_models.py",
+      "original_sha256": "6058b80d4d8b6164818b761ccd0cf9c876fa4fbee59721f55945361541b823f0",
+      "release_sha256": "6058b80d4d8b6164818b761ccd0cf9c876fa4fbee59721f55945361541b823f0",
+      "original_AST_sha256": "01a53c162ee35f670c0650a74613487cf955361f68a05a9c7f50e91c8696f490",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/score_missingness_pruning.py",
+      "source": "code/analysis/score_missingness_pruning.py",
+      "original_sha256": "962a31265123f8e0917dc14bf5d3efc9a0c03cec2a84d59524c564d1cd26f49e",
+      "release_sha256": "962a31265123f8e0917dc14bf5d3efc9a0c03cec2a84d59524c564d1cd26f49e",
+      "original_AST_sha256": "409363b1d19456972ca8ffc0519023b4783a61e9e3bd5b2a3d51d036df27238d",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/strengthen_calibration_uncertainty.py",
+      "source": "code/analysis/strengthen_calibration_uncertainty.py",
+      "original_sha256": "903afe19e13919b80fbb46978a21c2fb7f1adda90c1173b06aa08ae4882d7fe8",
+      "release_sha256": "903afe19e13919b80fbb46978a21c2fb7f1adda90c1173b06aa08ae4882d7fe8",
+      "original_AST_sha256": "b20924153f26cce9477517fc8f11ba43c004400b391e89218c943056681037e3",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/strengthen_transportability_subgroups.py",
+      "source": "code/analysis/strengthen_transportability_subgroups.py",
+      "original_sha256": "74d11ddec796615475c8eda96c901ba3739a538ef4e4a005f3b34f88e2e085b4",
+      "release_sha256": "74d11ddec796615475c8eda96c901ba3739a538ef4e4a005f3b34f88e2e085b4",
+      "original_AST_sha256": "868b81edd478c023b6464af9f3d398b996e52f1a5ed3ead8b86e68d770105eaa",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "tests/test_missingness_pruning_inputs.py",
+      "source": "code/analysis/test_missingness_pruning_inputs.py",
+      "original_sha256": "76cafb786bd7811ac17ef8e0fd24d239e80f82685557e36406ae6ddc29ab4d1b",
+      "release_sha256": "76cafb786bd7811ac17ef8e0fd24d239e80f82685557e36406ae6ddc29ab4d1b",
+      "original_AST_sha256": "b9ae3eb8a10b702475b600e000cb33943afec22f73e557def9d1bca79db36dd7",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "tests/test_pruning_full_pipeline.py",
+      "source": "code/analysis/test_pruning_full_pipeline.py",
+      "original_sha256": "0d5ebaa6bf777e6f973acd3d6fb82cdf6d0eb3197eca0c583f6a139d5821e24f",
+      "release_sha256": "0d5ebaa6bf777e6f973acd3d6fb82cdf6d0eb3197eca0c583f6a139d5821e24f",
+      "original_AST_sha256": "95c79c79b360b8d391e259429da77991945791eb9758ac91fa8e07881cc81b19",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "tests/test_pruning_inference.py",
+      "source": "code/analysis/test_pruning_inference.py",
+      "original_sha256": "e35bac7c6e66e29284ba19d2081774c4d735eac19bb009d9625a942a74875823",
+      "release_sha256": "e35bac7c6e66e29284ba19d2081774c4d735eac19bb009d9625a942a74875823",
+      "original_AST_sha256": "dfb4b04fb17801e5266cd6bb3bac9512bb554ed342595954afc077e5db089c7a",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/train_missingness_pruning.py",
+      "source": "code/analysis/train_missingness_pruning.py",
+      "original_sha256": "a05dfe71e0cd4df4d18b4683ca2f3f4daf5894b256557d0746591ff86811d56a",
+      "release_sha256": "a05dfe71e0cd4df4d18b4683ca2f3f4daf5894b256557d0746591ff86811d56a",
+      "original_AST_sha256": "93e17ba23bc2a3fdd50a5048292027e7c4d63559bca6ce71c384cb61fef570fe",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/transportability_bootstrap.py",
+      "source": "code/analysis/transportability_bootstrap.py",
+      "original_sha256": "2e1007843d4062846ef8c9364f4f8b6d2c5f42dc109a245479f21ded1a163a25",
+      "release_sha256": "2e1007843d4062846ef8c9364f4f8b6d2c5f42dc109a245479f21ded1a163a25",
+      "original_AST_sha256": "01f4663a6c5ef6a3657df28343aabe54877b30d035f187a6750cc43276eb8a61",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/verify_missingness_pruning.py",
+      "source": "code/analysis/verify_missingness_pruning.py",
+      "original_sha256": "515b761aa2bc6cf8bd13882ea2e6d4c5247d0d30a059b3756de1a6fd84b21db1",
+      "release_sha256": "515b761aa2bc6cf8bd13882ea2e6d4c5247d0d30a059b3756de1a6fd84b21db1",
+      "original_AST_sha256": "3f67d29616bfd89314327ed627b57a3cf449cccedb8d880f1120f85a563ad16b",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/verify_pruning_full_pipeline.py",
+      "source": "code/analysis/verify_pruning_full_pipeline.py",
+      "original_sha256": "770276c16171a69ea9e920691f0c4dfc9847ade1c5c70aa728d6ddbe847783df",
+      "release_sha256": "770276c16171a69ea9e920691f0c4dfc9847ade1c5c70aa728d6ddbe847783df",
+      "original_AST_sha256": "2acc2fd55d32771ba5ae27f3ac66ef9b7e19c0bc41d3f6b13c2dcfdbd19acba4",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/pruning_focused_amendment.py",
+      "source": "code/pruning_focused_amendment.py",
+      "original_sha256": "a8ce2a1e9b7bb64cd7d25c154005539652afc0ae86f1d7f744232ee45f237247",
+      "release_sha256": "a8ce2a1e9b7bb64cd7d25c154005539652afc0ae86f1d7f744232ee45f237247",
+      "original_AST_sha256": "7dce576476568232fa04f814dc0f6125674272ed03ba9a5b7f16cc278f5394e8",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/verify_pruning_focused_amendment.py",
+      "source": "code/verify_pruning_focused_amendment.py",
+      "original_sha256": "50ce390219b460e4bf119b69b569ff2ea393d5ffca2203e90d959194cecd2f27",
+      "release_sha256": "50ce390219b460e4bf119b69b569ff2ea393d5ffca2203e90d959194cecd2f27",
+      "original_AST_sha256": "267ea5338995051db5c3f2d0ffc93affd0895061243d21979cce154946dec781",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "analysis/reconcile_pruning_harmonization_audit.py",
+      "source": "code/reconcile_pruning_harmonization_audit.py",
+      "original_sha256": "f2809a617bba82fec8ceb185a7db1934f9450aa1aa1d13c739ec52cbaf3438ac",
+      "release_sha256": "f2809a617bba82fec8ceb185a7db1934f9450aa1aa1d13c739ec52cbaf3438ac",
+      "original_AST_sha256": "bf64ad1ee349394ea7ccff60d5f767601f6f8327be662ee4294015037c6beab1",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/build_eicu_candidate_features_sql.py",
+      "source": "code/source_preparation/build_eicu_candidate_features_sql.py",
+      "original_sha256": "ab1f67380375c9b1a24c118eb2afd25cc38af7461638f90676e32b0bf14d95fa",
+      "release_sha256": "ab1f67380375c9b1a24c118eb2afd25cc38af7461638f90676e32b0bf14d95fa",
+      "original_AST_sha256": "bec53eff88275413d08da7ff53de4e7e56aef7193f70f6dfcfb3b4dc164e5c12",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/build_mimic_candidate_features_sql.py",
+      "source": "code/source_preparation/build_mimic_candidate_features_sql.py",
+      "original_sha256": "b8feda4536a1da115f3b8ece7722a52655bb2b74f45844c02ef0f2103da725e8",
+      "release_sha256": "b8feda4536a1da115f3b8ece7722a52655bb2b74f45844c02ef0f2103da725e8",
+      "original_AST_sha256": "9d6b1ec434fbd182d859aa447629c08d812bdb0d05355c020bd7cf3c851a56fa",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/import_sql_incremental.py",
+      "source": "code/source_preparation/import_sql_incremental.py",
+      "original_sha256": "c068d610d38c594fcf4785c036a68bfea9d7c98227941869b2436207d2a20519",
+      "release_sha256": "c068d610d38c594fcf4785c036a68bfea9d7c98227941869b2436207d2a20519",
+      "original_AST_sha256": "c30007bb8df18eb586f7532dcf8833421c05071aa3ff349e85ab30a0205eeffa",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/prepare_eicu_core_measurements.py",
+      "source": "code/source_preparation/prepare_eicu_core_measurements.py",
+      "original_sha256": "82c976c58567b95ae5c575ec83e88a5d925a84a3e7f4cac48e5533e827eda5e4",
+      "release_sha256": "82c976c58567b95ae5c575ec83e88a5d925a84a3e7f4cac48e5533e827eda5e4",
+      "original_AST_sha256": "481e9f8395451e4c3cc58bc699e3383da1cdd866e330889cc85efe701e873a6f",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/prepare_eicu_lab_unit_correction.py",
+      "source": "code/source_preparation/prepare_eicu_lab_unit_correction.py",
+      "original_sha256": "5d9498c846b153e13fb45c6a88a526e64ef942f0cd9ea6ea5ee4c31d3eeac237",
+      "release_sha256": "5d9498c846b153e13fb45c6a88a526e64ef942f0cd9ea6ea5ee4c31d3eeac237",
+      "original_AST_sha256": "39bc66323a0d5bb25de49227de090911dcbd0f3429b61b16e0e036bda5643c9e",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/prepare_eicu_nursing_temperature.py",
+      "source": "code/source_preparation/prepare_eicu_nursing_temperature.py",
+      "original_sha256": "a21b555be8b80df687e394b4f03c7243da91fc4d86fd76c8110d3f46e88b665e",
+      "release_sha256": "a21b555be8b80df687e394b4f03c7243da91fc4d86fd76c8110d3f46e88b665e",
+      "original_AST_sha256": "386b29fbf8026dfcd2a7166ed9d39e06638ba016c442370fea0a7458177a08e7",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/prepare_extension_source_audit.py",
+      "source": "code/source_preparation/prepare_extension_source_audit.py",
+      "original_sha256": "3feebafc27291aba81d35ceae3b3768737920e95e3aa7c3e14bb7afa6a914c76",
+      "release_sha256": "3feebafc27291aba81d35ceae3b3768737920e95e3aa7c3e14bb7afa6a914c76",
+      "original_AST_sha256": "c8c7c0e1e1874426c18ecce97b09b0070fd4297f83e698c206acedbabd4200b9",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/prepare_gcs_candidate_sql.py",
+      "source": "code/source_preparation/prepare_gcs_candidate_sql.py",
+      "original_sha256": "1eae231f003a110fa6fe7cce3355bcf0c88078c3f0548217f7ca300be894bd39",
+      "release_sha256": "1eae231f003a110fa6fe7cce3355bcf0c88078c3f0548217f7ca300be894bd39",
+      "original_AST_sha256": "6b0cdc1623980eac5319c574c9885b41b331075ef89cab919bd6a8019db55092",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/prepare_harmonized_cohorts.py",
+      "source": "code/source_preparation/prepare_harmonized_cohorts.py",
+      "original_sha256": "d2bf380c8ef93d4342b843e2c6f61e688ea3e8dc77b85741a52d6c063b0150ed",
+      "release_sha256": "d2bf380c8ef93d4342b843e2c6f61e688ea3e8dc77b85741a52d6c063b0150ed",
+      "original_AST_sha256": "c3e1609ee6f2e7a291fbf1a4cc94c20369522ba4d6fa9d1946ae22b8850f9519",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/prepare_landmark_import.py",
+      "source": "code/source_preparation/prepare_landmark_import.py",
+      "original_sha256": "28cf0bcc93d56ee873dad378bf09d0e51cc739257fbcd817bedcc2b993ae2fbb",
+      "release_sha256": "28cf0bcc93d56ee873dad378bf09d0e51cc739257fbcd817bedcc2b993ae2fbb",
+      "original_AST_sha256": "aaef56676c94c56fe635556ecc69218e9cabe288fe2e5df33fa437d0a42542b5",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/prepare_model_feature_audit.py",
+      "source": "code/source_preparation/prepare_model_feature_audit.py",
+      "original_sha256": "a78153794fffbcda4bc02b14699b6865ecebb0d046699c305c1534b4823ae81c",
+      "release_sha256": "a78153794fffbcda4bc02b14699b6865ecebb0d046699c305c1534b4823ae81c",
+      "original_AST_sha256": "ba44bc15701749c6227f5b7f88ce87a2b510fb3e47f757f161dbb14fb948ce96",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/prepare_support_documentation_sql.py",
+      "source": "code/source_preparation/prepare_support_documentation_sql.py",
+      "original_sha256": "6e8b231f2e6cbe49ee904a8f8cfeb40ee8d289ee05f9b6b5d201e1788ff474f2",
+      "release_sha256": "6e8b231f2e6cbe49ee904a8f8cfeb40ee8d289ee05f9b6b5d201e1788ff474f2",
+      "original_AST_sha256": "55d8a5386590dac2773a8565d9e7ccea1118f87b1edbca715388485b0c26bfe2",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "source_preparation/audits/prepare_pruning_harmonization_audit.py",
+      "source": "code/prepare_pruning_harmonization_audit.py",
+      "original_sha256": "a4e1e61d9655396d379e0141a5274c1775fc6e9ecf20ef608b232b9ef46a6e2e",
+      "release_sha256": "a4e1e61d9655396d379e0141a5274c1775fc6e9ecf20ef608b232b9ef46a6e2e",
+      "original_AST_sha256": "44885528f55baebf3cdf5dd75cd69e06fed353632c44dc18cc258d8d2dd3762c",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "tools/verification/verify_aggregate_package.py",
+      "source": "code/verify_aggregate_package.py",
+      "original_sha256": "3596044100d8546b386a58699562d566cd2d52de37e8e2493a3897c482bd1775",
+      "release_sha256": "3596044100d8546b386a58699562d566cd2d52de37e8e2493a3897c482bd1775",
+      "original_AST_sha256": "f48e7c38415e46d69e2d1dd5af644e727b09844c7c2e3edce0ac8cf4b58ffd1a",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    },
+    {
+      "path": "tools/verification/verify_focused_aggregate_evidence.py",
+      "source": "code/verify_focused_aggregate_evidence.py",
+      "original_sha256": "9a7a1080a0b1804be93151244b10a037c042964d52510f7dccc746129310775b",
+      "release_sha256": "9a7a1080a0b1804be93151244b10a037c042964d52510f7dccc746129310775b",
+      "original_AST_sha256": "4028bbc5b02f47ce6449985b65ab2b17bfb91f71f009c2c7d6eac820098d608f",
+      "python_AST_unchanged": true,
+      "removed_comments": []
+    }
+  ]
+}
