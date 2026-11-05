@@ -89,22 +89,6 @@ This reconstructs the original and focused contrast summaries, checks 400 aggreg
 
 See [study design](docs/STUDY_DESIGN.md) and the dated [protocols](protocols/). The pruning experiment does not include the earlier landmark-comparison experiments or later model-performance exploration.
 
-## Push this folder to GitHub
+## Authors
 
-Use **this repository folder**, not the parent research folder:
-
-```powershell
-git status --short
-python tools/check_repository.py
-git add .
-git diff --cached --stat
-git commit -m "Organize missingness-pruning research code"
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
-```
-
-Inspect the staged file list before committing. Do not force-add ignored data or copy a private run into Git. No remote, commit or push is performed by the setup tools. A code license has not yet been selected; the repository does not grant an open-source license by implication. No repository DOI or journal acceptance is claimed.
-
-## Authors and assistance
-
-Ujjwal Bhattarai and Kriti Sharma, independent researchers, Kathmandu, Nepal. Correspondence: bhattaraiujjwal26@gmail.com. Computational assistance contributed to programming, checks and manuscript preparation; the human authors remain responsible for review and interpretation. The software evaluates statistical/tabular prediction models; the assistant is not an evaluated mortality predictor.
+Ujjwal Bhattarai and Kriti Sharma, independent researchers, Kathmandu, Nepal. Correspondence: bhattaraiujjwal26@gmail.com. sharma0100kriti@gmail.com
